@@ -1,0 +1,36 @@
+name: Publier TopoPLM pour Windows
+on:
+  push:
+    branches: [main]
+    paths: ['payload/**', 'release.json', 'scripts/**', '.github/workflows/release.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assembler le programme Windows autonome
+        shell: pwsh
+        run: ./scripts/build-release.ps1
+      - name: Publier le téléchargement
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $release = Get-Content release.json -Raw | ConvertFrom-Json
+          $tag = 'v' + $release.version
+          & gh release view $tag --repo $env:GITHUB_REPOSITORY 2>$null
+          if ($LASTEXITCODE -eq 0) { Write-Output "La version $tag est déjà publiée."; exit 0 }
+          $notes = @"
+          TopoPLM $($release.version) pour Windows 10 / 11, 64 bits.
+
+          Extraire tout le ZIP, puis ouvrir TopoPLM.exe.
+          Enregistrer votre chantier et fermer l'ancienne version avant de changer de dossier.
+
+          Dans le logiciel : Mises à jour pour les versions suivantes, sans connexion ni configuration.
+          "@
+          $notes | Set-Content -LiteralPath dist/notes.txt -Encoding utf8
+          & gh release create $tag dist/TopoPLM-win-x64.zip --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --title "TopoPLM $($release.version)" --notes-file dist/notes.txt
+          if ($LASTEXITCODE -ne 0) { throw 'Publication interrompue.' }
