@@ -1,14 +1,15 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "runtimeVersion": "8.0.22",
-  "sha256": "466acaca392d65943f8ae40273f0c4437a7073d5df32d7180ed4238e81dd6e84",
-  "length": 162651,
+  "sha256": "5760a6fd40d6821877ce1e6ec4c08e8d248da4db192f52d2ff7a958ce600bd1c",
+  "length": 165579,
   "parts": [
-    "payload/0.2.4/application.001",
-    "payload/0.2.4/application.002",
-    "payload/0.2.4/application.003",
-    "payload/0.2.4/application.004",
-    "payload/0.2.4/application.005"
+    "payload/0.2.5/application.001",
+    "payload/0.2.5/application.002",
+    "payload/0.2.5/application.003",
+    "payload/0.2.5/application.004",
+    "payload/0.2.5/application.005",
+    "payload/0.2.5/application.006"
   ],
-  "notes": "Nouveaut\u00e9s :\n- Modes 90\u00b0 (F8) et 45\u00b0 (F10), avec accrochages aux objets r\u00e9glables.\n- Points GPS, extr\u00e9mit\u00e9s, milieux, centres, quadrants, intersections 2D, perpendiculaires et point le plus proche.\n- Copier une s\u00e9lection avec un point de base, puis la coller \u00e0 la destination, avec aper\u00e7u.\n- Rotation \u00e0 la souris autour du centre choisi, avec aper\u00e7u avant validation.\n- REFF pendant la rotation : d\u00e9finir l'angle de d\u00e9part par deux points.\n- Guide de r\u00e9f\u00e9rence pointill\u00e9 pour tracer, d\u00e9placer ou coller; aimantation pr\u00e8s du guide et d\u00e9placement libre ailleurs.\n\nLes copies gardent leurs calques et leurs altitudes. Leurs points re\u00e7oivent de nouveaux num\u00e9ros. \u00c9chap annule avant placement et Ctrl+Z annule l'op\u00e9ration valid\u00e9e."
+  "notes": "Chaque groupe de calques dispose maintenant de deux sous-calques :\n- Points : les points et leurs \u00e9tiquettes.\n- Lignes : les trac\u00e9s et autres objets du dessin.\n\nAfficher ou masquer chacun s\u00e9par\u00e9ment dans la liste des calques. Les commandes Tous les points, Toutes les lignes et Tout afficher permettent aussi de r\u00e9gler le dessin au complet.\n\nLes \u00e9tats sont enregistr\u00e9s dans les projets. Les accrochages, la s\u00e9lection et le PDF respectent les objets affich\u00e9s. L'export DXF conserve deux calques distincts par groupe, avec leur visibilit\u00e9. Les anciens projets sont pris en charge automatiquement."
 }
