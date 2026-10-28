@@ -1,15 +1,15 @@
 {
-  "version": "0.2.5",
+  "version": "0.2.6",
   "runtimeVersion": "8.0.22",
-  "sha256": "5760a6fd40d6821877ce1e6ec4c08e8d248da4db192f52d2ff7a958ce600bd1c",
-  "length": 165579,
+  "sha256": "8bb331ec5cf423d02d7307041e7210c68da6e90ad0604dd9c5ed3313891e11ce",
+  "length": 174076,
   "parts": [
-    "payload/0.2.5/application.001",
-    "payload/0.2.5/application.002",
-    "payload/0.2.5/application.003",
-    "payload/0.2.5/application.004",
-    "payload/0.2.5/application.005",
-    "payload/0.2.5/application.006"
+    "payload/0.2.6/application.001",
+    "payload/0.2.6/application.002",
+    "payload/0.2.6/application.003",
+    "payload/0.2.6/application.004",
+    "payload/0.2.6/application.005",
+    "payload/0.2.6/application.006"
   ],
-  "notes": "Chaque groupe de calques dispose maintenant de deux sous-calques :\n- Points : les points et leurs \u00e9tiquettes.\n- Lignes : les trac\u00e9s et autres objets du dessin.\n\nAfficher ou masquer chacun s\u00e9par\u00e9ment dans la liste des calques. Les commandes Tous les points, Toutes les lignes et Tout afficher permettent aussi de r\u00e9gler le dessin au complet.\n\nLes \u00e9tats sont enregistr\u00e9s dans les projets. Les accrochages, la s\u00e9lection et le PDF respectent les objets affich\u00e9s. L'export DXF conserve deux calques distincts par groupe, avec leur visibilit\u00e9. Les anciens projets sont pris en charge automatiquement."
+  "notes": "Unit\u00e9s du dessin : choisir Pieds / pouces, Pieds d\u00e9cimaux, Pouces ou M\u00e8tres au-dessus du plan. Les mesures, propri\u00e9t\u00e9s, coordonn\u00e9es et saisies suivent le choix, avec fractions de pouce et suffixes explicites. La pr\u00e9cision des relev\u00e9s GPS est conserv\u00e9e.\n\nRotation : la g\u00e9om\u00e9trie s'accroche au guide REFF lorsqu'une extr\u00e9mit\u00e9 de l'objet l'approche. Le rep\u00e8re vert appara\u00eet sur l'objet; le curseur reste libre.\n\nCercles : centre/rayon, 2 points pour le diam\u00e8tre (C2), ou 3 points sur la circonf\u00e9rence (C3).\nArcs : 3 points d\u00e9but/passage/fin (A3), ou 2 extr\u00e9mit\u00e9s avec courbure r\u00e9gl\u00e9e \u00e0 la souris puis valid\u00e9e par clic (A2). Aper\u00e7u avant validation, \u00c9chap pour annuler.\n\nLes cercles et arcs peuvent s'appuyer sur les points GPS et h\u00e9ritent de leur groupe. Les arcs sont conserv\u00e9s dans le projet et l'export DXF. Les exports PDF/CSV et la calibration respectent aussi le choix des unit\u00e9s."
 }
