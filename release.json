@@ -1,13 +1,14 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "runtimeVersion": "8.0.22",
-  "sha256": "b693da25202c76040df245db4101b727b4b7299b4e842fead3dcc33661d90bf5",
-  "length": 150913,
+  "sha256": "466acaca392d65943f8ae40273f0c4437a7073d5df32d7180ed4238e81dd6e84",
+  "length": 162651,
   "parts": [
-    "payload/0.2.3/application.001",
-    "payload/0.2.3/application.002",
-    "payload/0.2.3/application.003",
-    "payload/0.2.3/application.004",
-    "payload/0.2.3/application.005"
-  ]
+    "payload/0.2.4/application.001",
+    "payload/0.2.4/application.002",
+    "payload/0.2.4/application.003",
+    "payload/0.2.4/application.004",
+    "payload/0.2.4/application.005"
+  ],
+  "notes": "Nouveaut\u00e9s :\n- Modes 90\u00b0 (F8) et 45\u00b0 (F10), avec accrochages aux objets r\u00e9glables.\n- Points GPS, extr\u00e9mit\u00e9s, milieux, centres, quadrants, intersections 2D, perpendiculaires et point le plus proche.\n- Copier une s\u00e9lection avec un point de base, puis la coller \u00e0 la destination, avec aper\u00e7u.\n- Rotation \u00e0 la souris autour du centre choisi, avec aper\u00e7u avant validation.\n- REFF pendant la rotation : d\u00e9finir l'angle de d\u00e9part par deux points.\n- Guide de r\u00e9f\u00e9rence pointill\u00e9 pour tracer, d\u00e9placer ou coller; aimantation pr\u00e8s du guide et d\u00e9placement libre ailleurs.\n\nLes copies gardent leurs calques et leurs altitudes. Leurs points re\u00e7oivent de nouveaux num\u00e9ros. \u00c9chap annule avant placement et Ctrl+Z annule l'op\u00e9ration valid\u00e9e."
 }

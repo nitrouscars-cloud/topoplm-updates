@@ -31,6 +31,7 @@ jobs:
 
           Dans le logiciel : Mises à jour pour les versions suivantes, sans connexion ni configuration.
           "@
+          if ($release.notes) { $notes += "`n`n" + $release.notes }
           $notes | Set-Content -LiteralPath dist/notes.txt -Encoding utf8
           & gh release create $tag dist/TopoPLM-win-x64.zip --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --title "TopoPLM $($release.version)" --notes-file dist/notes.txt
           if ($LASTEXITCODE -ne 0) { throw 'Publication interrompue.' }
