@@ -1,15 +1,15 @@
 {
-  "version": "0.2.7",
+  "version": "0.2.8",
   "runtimeVersion": "8.0.22",
-  "sha256": "7219d263683cc04889ca7ca648214ad734c51b0d3b22b747e5e64856c2c0e9d7",
-  "length": 178907,
+  "sha256": "ba2ec9fee57f7e9e400e003e0b3ea6d4e4683e381996fe7f512e8f0058fdb958",
+  "length": 194482,
   "parts": [
-    "payload/0.2.7/application.001",
-    "payload/0.2.7/application.002",
-    "payload/0.2.7/application.003",
-    "payload/0.2.7/application.004",
-    "payload/0.2.7/application.005",
-    "payload/0.2.7/application.006"
+    "payload/0.2.8/application.001",
+    "payload/0.2.8/application.002",
+    "payload/0.2.8/application.003",
+    "payload/0.2.8/application.004",
+    "payload/0.2.8/application.005",
+    "payload/0.2.8/application.006"
   ],
-  "notes": "Chaque groupe poss\u00e8de maintenant Points, Lignes et \u00c9l\u00e9vations. Les hauteurs restent visibles lorsque Points est masqu\u00e9. Les \u00e9tats sont conserv\u00e9s dans le projet et les exports.\n\nLe point z\u00e9ro s'applique aux hauteurs de tous les groupes, y compris ceux qui sont masqu\u00e9s. L'affichage imp\u00e9rial conserve les valeurs en pieds/pouces; les nouveaux dessins d\u00e9marrent dans ce mode.\n\nREFF d\u00e9fini pendant Rotation ou \u00c9chelle est temporaire : il est retir\u00e9 apr\u00e8s validation, annulation ou changement de commande. \u00c9chelle propose un aper\u00e7u \u00e0 la souris, un facteur num\u00e9rique ou REFF avec longueur de r\u00e9f\u00e9rence et longueur cible en pieds/pouces.\n\nTypes de trait : Continu, Pointill\u00e9 et Tirets pour lignes, polylignes, rectangles, arcs et cercles. Choix par objet dans Propri\u00e9t\u00e9s, ou par calque dans son menu. Styles conserv\u00e9s dans le projet, la copie et les exports PDF/DXF."
+  "notes": "Nouveaut\u00e9s et corrections :\n- Texte : contenu, police, hauteur, gras, italique et soulign\u00e9 dans une barre d\u00e9di\u00e9e.\n- Annotations par fl\u00e8che ou point, avec valeur/info, sur le sous-calque Annotations.\n- Sous-calques affich\u00e9s seulement lorsqu\u2019ils contiennent des objets.\n- Poign\u00e9es pour d\u00e9placer les sommets communs et intersections de plusieurs lignes.\n- Ctrl : Snap intercalque. Maj : Mode 90\u00b0. Indicateurs visibles pendant l\u2019appui.\n- Aimant d\u00e9but/fin, milieu, 25 % et 75 % des lignes et arcs.\n- Les outils de dessin restent actifs apr\u00e8s chaque objet; \u00c9chap quitte le mode.\n- Export DXF reconstruit et audit\u00e9 avec un lecteur ind\u00e9pendant, sans r\u00e9paration."
 }
