@@ -1,16 +1,16 @@
 {
-  "version": "0.2.10",
+  "version": "0.2.11",
   "runtimeVersion": "8.0.22",
-  "sha256": "2df673ae3fe6739642fbb37d0cc9e5b09a3b10499d1bb5054bc3730fa3274c41",
-  "length": 202540,
+  "sha256": "54ea203e3a68dad2d17b79a9f75cc8d4b498477e82f6ccaad3ff82290135f549",
+  "length": 225655,
   "parts": [
-    "payload/0.2.10/application.001",
-    "payload/0.2.10/application.002",
-    "payload/0.2.10/application.003",
-    "payload/0.2.10/application.004",
-    "payload/0.2.10/application.005",
-    "payload/0.2.10/application.006",
-    "payload/0.2.10/application.007"
+    "payload/0.2.11/application.001",
+    "payload/0.2.11/application.002",
+    "payload/0.2.11/application.003",
+    "payload/0.2.11/application.004",
+    "payload/0.2.11/application.005",
+    "payload/0.2.11/application.006",
+    "payload/0.2.11/application.007"
   ],
-  "notes": "Nouveaut\u00e9s :\n- Mises \u00e0 jour cumulatives : si vous sautez plusieurs versions, la fen\u00eatre Nouveaut\u00e9s pr\u00e9sente tous les changements depuis la derni\u00e8re version consult\u00e9e, du plus ancien au plus r\u00e9cent, avec une section par version.\n- Historique complet : retrouvez toutes les notes dans Aide > Historique des nouveaut\u00e9s. Elles sont disponibles hors connexion.\n- Les nouveaut\u00e9s d\u00e9j\u00e0 pr\u00e9sent\u00e9es ne reviennent pas \u00e0 chaque lancement. Les mises \u00e0 jour suivantes ajoutent automatiquement leurs propres sections \u00e0 l\u2019historique.\n- Mise \u00e0 jour au d\u00e9marrage : le logiciel v\u00e9rifie en arri\u00e8re-plan si une nouvelle version est disponible, puis propose de l\u2019installer. Le dessin reste utilisable et une absence de connexion ne d\u00e9clenche aucune alerte."
+  "notes": "Nouveaut\u00e9s :\n- Texte dans le plan : choisissez Texte et cliquez pour \u00e9crire directement. Maintenez le clic gauche et glissez pour d\u00e9finir une bo\u00eete avec retour automatique \u00e0 la ligne. Aucun texte par d\u00e9faut n\u2019est ajout\u00e9.\n- Mise en forme flottante : la police, la taille, le gras, l\u2019italique et le soulign\u00e9 sont directement au-dessus du texte. Double-cliquez un texte existant pour le modifier dans le plan.\n- Annotations : apr\u00e8s avoir plac\u00e9 une fl\u00e8che ou un point, saisissez sa valeur directement sur le dessin. Entr\u00e9e valide et ferme l\u2019\u00e9dition; Maj+Entr\u00e9e ajoute une ligne; \u00c9chap annule la modification.\n- Ruban \u00e0 ic\u00f4nes : commandes et palettes Cercle, Arc, Annotation et Aide utilisent des images vectorielles avec infobulles. Le bouton de l\u2019outil actif reste surlign\u00e9.\n- S\u00e9lection visible : un l\u00e9ger halo bleu met en \u00e9vidence les objets s\u00e9lectionn\u00e9s. Copier est disponible uniquement avec une s\u00e9lection; Coller uniquement apr\u00e8s une copie.\n- Type de ligne Cl\u00f4ture : motif de carr\u00e9s reli\u00e9s par des traits, disponible pour les lignes, polylignes, cercles et arcs. Le projet, la copie et les exports PDF/DXF le conservent.\n- Polyligne : \u00c9chap conserve les segments d\u00e9j\u00e0 trac\u00e9s et quitte l\u2019outil. Entr\u00e9e confirme la polyligne et permet d\u2019en commencer une autre.\n- Maj : accrochage magn\u00e9tique aux prolongements et perpendiculaires des lignes reli\u00e9es au point de d\u00e9part. \u00c0 une jonction, approchez le curseur de la ligne que vous souhaitez continuer; la r\u00e9f\u00e9rence est mise en \u00e9vidence.\n- Alt : directions horizontales et verticales du plan. Ctrl continue de permettre les accrochages aux objets des autres calques visibles. Les indicateurs pr\u00e9cisent le mode utilis\u00e9.\n- Mod\u00e8les de calques : d\u00e9finissez une couleur, une \u00e9paisseur et un type de trait pour un nom comme clo. Les prochains calques de m\u00eame nom reprennent ce style \u00e0 la cr\u00e9ation ou \u00e0 l\u2019importation. Le menu du calque permet d\u2019enregistrer son style actuel comme mod\u00e8le.\n- Liste des calques simplifi\u00e9e : une case g\u00e9n\u00e9rale affiche ou masque tous les calques; un bouton d\u00e9plie ou replie tous les groupes.\n- Cadrer le calque courant : un bouton dans le coin sup\u00e9rieur droit du plan centre la vue sur les objets visibles du calque actif et les cadre \u00e0 75 % de la zone de dessin.\n- Plus d\u2019espace pour le dessin : les r\u00e9glages du panneau droit sont regroup\u00e9s dans les menus Affichage et Propri\u00e9t\u00e9s du ruban. Le changement de calque est disponible dans la section d\u00e9di\u00e9e des propri\u00e9t\u00e9s.\n- Commandes contextuelles : Point z\u00e9ro exige un point s\u00e9lectionn\u00e9; D\u00e9placer, Rotation, \u00c9chelle et les r\u00e9glages de fond de plan restent gris\u00e9s lorsque la s\u00e9lection ne convient pas.\n- Ruban compact : ic\u00f4nes et boutons plus petits, avec infobulles, pour laisser davantage de hauteur au plan."
 }
