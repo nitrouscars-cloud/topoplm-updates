@@ -1,15 +1,16 @@
 {
-  "version": "0.2.8",
+  "version": "0.2.9",
   "runtimeVersion": "8.0.22",
-  "sha256": "ba2ec9fee57f7e9e400e003e0b3ea6d4e4683e381996fe7f512e8f0058fdb958",
-  "length": 194482,
+  "sha256": "63c649e54e7f67018703341519b89c46bb64c409baeec20feb74d6705ad9048c",
+  "length": 198083,
   "parts": [
-    "payload/0.2.8/application.001",
-    "payload/0.2.8/application.002",
-    "payload/0.2.8/application.003",
-    "payload/0.2.8/application.004",
-    "payload/0.2.8/application.005",
-    "payload/0.2.8/application.006"
+    "payload/0.2.9/application.001",
+    "payload/0.2.9/application.002",
+    "payload/0.2.9/application.003",
+    "payload/0.2.9/application.004",
+    "payload/0.2.9/application.005",
+    "payload/0.2.9/application.006",
+    "payload/0.2.9/application.007"
   ],
-  "notes": "Nouveaut\u00e9s et corrections :\n- Texte : contenu, police, hauteur, gras, italique et soulign\u00e9 dans une barre d\u00e9di\u00e9e.\n- Annotations par fl\u00e8che ou point, avec valeur/info, sur le sous-calque Annotations.\n- Sous-calques affich\u00e9s seulement lorsqu\u2019ils contiennent des objets.\n- Poign\u00e9es pour d\u00e9placer les sommets communs et intersections de plusieurs lignes.\n- Ctrl : Snap intercalque. Maj : Mode 90\u00b0. Indicateurs visibles pendant l\u2019appui.\n- Aimant d\u00e9but/fin, milieu, 25 % et 75 % des lignes et arcs.\n- Les outils de dessin restent actifs apr\u00e8s chaque objet; \u00c9chap quitte le mode.\n- Export DXF reconstruit et audit\u00e9 avec un lecteur ind\u00e9pendant, sans r\u00e9paration."
+  "notes": "Nouveaut\u00e9s de cette version et am\u00e9liorations r\u00e9centes :\n- Fen\u00eatre Nouveaut\u00e9s : au premier lancement apr\u00e8s une mise \u00e0 jour, d\u00e9couvrez les changements. Elle ne r\u00e9appara\u00eet pas aux ouvertures suivantes et reste accessible dans Aide > Nouveaut\u00e9s.\n- Texte : Accueil > Texte (T). Inscrivez le contenu dans la barre \u00e0 droite, choisissez police, hauteur, gras, italique ou soulign\u00e9, puis cliquez sur le plan. S\u00e9lectionnez un texte pour le modifier.\n- Annotations : ajoutez une fl\u00e8che (AN) ou un point (ANP) avec une petite valeur ou une info. Cliquez le rep\u00e8re, puis la position du texte. Les notes se rangent dans Annotations du groupe concern\u00e9.\n- Sous-calques : Points, Lignes, Topo / \u00e9l\u00e9vations et Annotations apparaissent seulement lorsqu\u2019ils contiennent des objets. Chaque cat\u00e9gorie se masque s\u00e9par\u00e9ment.\n- Sommets communs : s\u00e9lectionnez une ligne et d\u00e9placez sa poign\u00e9e. Les lignes reli\u00e9es suivent ensemble; d\u00e9placer une intersection conserve les extr\u00e9mit\u00e9s ext\u00e9rieures.\n- Ctrl : maintenez la touche pour accrocher les lignes et courbes des autres calques visibles. Un badge \u00ab Snap intercalque \u00bb confirme le mode actif.\n- Maj / Shift : maintenez la touche pour les directions \u00e0 90\u00b0 et leur intersection avec un objet. Le badge \u00ab Mode 90\u00b0 \u00bb s\u2019affiche pendant l\u2019appui. Ctrl et Maj se combinent.\n- Aimant : accrochez le d\u00e9but, la fin, le milieu, 25 % et 75 % des lignes et arcs. Un rep\u00e8re vert indique la position choisie.\n- Outils de dessin : ligne, polyligne, cercle, arc, rectangle, texte et annotation restent actifs apr\u00e8s chaque objet. \u00c9chap quitte l\u2019outil.\n- Export DXF corrig\u00e9 : les fichiers sont contr\u00f4l\u00e9s avec un lecteur CAD ind\u00e9pendant, sans erreur ni r\u00e9paration, y compris avec les unit\u00e9s imp\u00e9riales et les textes mis en forme.\n- Mises \u00e0 jour : le num\u00e9ro affich\u00e9 suit automatiquement la version r\u00e9ellement install\u00e9e."
 }
