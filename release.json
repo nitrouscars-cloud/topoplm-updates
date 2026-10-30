@@ -1,17 +1,17 @@
 {
-  "version": "0.2.12",
+  "version": "0.2.13",
   "runtimeVersion": "8.0.22",
-  "sha256": "b22f13cd72447ffc89e8bd955dae420f47b01ebc5460aae50421128ecf3ddc25",
-  "length": 232318,
+  "sha256": "6ee13146c20c914b0aeaf55d573e2da1d565b0ccad030e3aa522a979a11158b5",
+  "length": 238694,
   "parts": [
-    "payload/0.2.12/application.001",
-    "payload/0.2.12/application.002",
-    "payload/0.2.12/application.003",
-    "payload/0.2.12/application.004",
-    "payload/0.2.12/application.005",
-    "payload/0.2.12/application.006",
-    "payload/0.2.12/application.007",
-    "payload/0.2.12/application.008"
+    "payload/0.2.13/application.001",
+    "payload/0.2.13/application.002",
+    "payload/0.2.13/application.003",
+    "payload/0.2.13/application.004",
+    "payload/0.2.13/application.005",
+    "payload/0.2.13/application.006",
+    "payload/0.2.13/application.007",
+    "payload/0.2.13/application.008"
   ],
-  "notes": "Nouveaut\u00e9s :\n- Verrou GPS dans la barre sup\u00e9rieure, actif \u00e0 chaque d\u00e9marrage. Il prot\u00e8ge les points du relev\u00e9 contre les d\u00e9placements, rotations, changements d\u2019\u00e9chelle, modifications de coordonn\u00e9es et suppressions. Cliquez pour le d\u00e9sactiver manuellement. Le trac\u00e9, les accrochages, la copie et le choix du point z\u00e9ro restent disponibles.\n- Clic droit sur un ou plusieurs objets : Cacher, Changer de calque et Supprimer. Les commandes s\u2019appliquent \u00e0 toute la s\u00e9lection et respectent les verrouillages.\n- Les objets cach\u00e9s sont regroup\u00e9s sous \u00ab Cach\u00e9s \u00bb dans leur calque. Ce sous-calque appara\u00eet seulement s\u2019il contient des objets. Sa vue s\u2019active uniquement manuellement; elle reste d\u00e9sactiv\u00e9e lors de Tout afficher, de la r\u00e9activation du groupe et de la r\u00e9ouverture du projet. Affichage > Restaurer les objets cach\u00e9s remet les objets dans leurs cat\u00e9gories d\u2019origine.\n- Activer un calque affiche aussi ses sous-calques Points, Lignes, Topo et Annotations. L\u2019en-t\u00eate utilise des ic\u00f4nes \u0153il, cadenas et calque.\n- Le bouton \u00ab Propri\u00e9t\u00e9s objet \u00bb devient \u00ab Type de trait \u00bb, avec une ic\u00f4ne montrant un trait plein, des tirets et des points.\n- Infos-bulles personnalis\u00e9es dans le th\u00e8me sombre de TopoPLM, avec texte clair et accent bleu.\n- Correction de la bande blanche dans les menus de choix des cercles, arcs et annotations. Le fond est enti\u00e8rement sombre.\n\n- S\u00e9lecteur Unit\u00e9s redessin\u00e9 dans le th\u00e8me sombre, avec une ic\u00f4ne distincte pour m\u00e8tres, pieds/pouces, pieds d\u00e9cimaux et pouces. Les infos-bulles de Ligne et Polyligne expliquent leur s\u00e9lection ind\u00e9pendante ou group\u00e9e."
+  "notes": "Nouveaut\u00e9s :\n- Le verrou GPS exclut maintenant les points GPS des s\u00e9lections par clic, fen\u00eatre, croisement et s\u00e9lection du calque. R\u00e9activer le verrou retire imm\u00e9diatement les points d\u00e9j\u00e0 s\u00e9lectionn\u00e9s. Les accrochages pour tracer restent disponibles. D\u00e9verrouillez les points pour les s\u00e9lectionner, les copier ou changer le point z\u00e9ro.\n- Les sous-menus des calques utilisent le th\u00e8me sombre, avec texte lisible et aper\u00e7u des types de trait.\n- Couleur et \u00c9paisseur ont chacune leur option dans le menu du calque et leur bouton dans le ruban.\n- \u00c9paisseur : cinq choix, 0.5, 0.75, 1, 1.25 et 1.50 px, plus Personnalis\u00e9.\n- Nouvelle palette de couleurs sombre avec s\u00e9lection des nuances \u00e0 la souris, teinte, nuancier, aper\u00e7u et saisie #RRGGBB. Elle s\u2019utilise aussi pour les mod\u00e8les de calques et remplace la palette Windows.\n- \u00ab Rendre courant \u00bb est retir\u00e9 du menu contextuel. Un clic sur le nom du calque le rend d\u00e9j\u00e0 courant.\n\n- Souris : curseur syst\u00e8me visible en compl\u00e9ment du r\u00e9ticule, regroupement des rafra\u00eechissements Ctrl/Maj/Alt et r\u00e9cup\u00e9ration de la capture de souris en cas de perte de focus, sans supprimer le trac\u00e9 en cours. Cette am\u00e9lioration vise les disparitions intermittentes du curseur."
 }
