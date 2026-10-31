@@ -1,17 +1,17 @@
 {
-  "version": "0.2.13",
+  "version": "0.2.14",
   "runtimeVersion": "8.0.22",
-  "sha256": "6ee13146c20c914b0aeaf55d573e2da1d565b0ccad030e3aa522a979a11158b5",
-  "length": 238694,
+  "sha256": "fbad3d1d427f927ce12f98f89a9012ff85f6724189438b90c27b879c8c5258f1",
+  "length": 240225,
   "parts": [
-    "payload/0.2.13/application.001",
-    "payload/0.2.13/application.002",
-    "payload/0.2.13/application.003",
-    "payload/0.2.13/application.004",
-    "payload/0.2.13/application.005",
-    "payload/0.2.13/application.006",
-    "payload/0.2.13/application.007",
-    "payload/0.2.13/application.008"
+    "payload/0.2.14/application.001",
+    "payload/0.2.14/application.002",
+    "payload/0.2.14/application.003",
+    "payload/0.2.14/application.004",
+    "payload/0.2.14/application.005",
+    "payload/0.2.14/application.006",
+    "payload/0.2.14/application.007",
+    "payload/0.2.14/application.008"
   ],
-  "notes": "Nouveaut\u00e9s :\n- Le verrou GPS exclut maintenant les points GPS des s\u00e9lections par clic, fen\u00eatre, croisement et s\u00e9lection du calque. R\u00e9activer le verrou retire imm\u00e9diatement les points d\u00e9j\u00e0 s\u00e9lectionn\u00e9s. Les accrochages pour tracer restent disponibles. D\u00e9verrouillez les points pour les s\u00e9lectionner, les copier ou changer le point z\u00e9ro.\n- Les sous-menus des calques utilisent le th\u00e8me sombre, avec texte lisible et aper\u00e7u des types de trait.\n- Couleur et \u00c9paisseur ont chacune leur option dans le menu du calque et leur bouton dans le ruban.\n- \u00c9paisseur : cinq choix, 0.5, 0.75, 1, 1.25 et 1.50 px, plus Personnalis\u00e9.\n- Nouvelle palette de couleurs sombre avec s\u00e9lection des nuances \u00e0 la souris, teinte, nuancier, aper\u00e7u et saisie #RRGGBB. Elle s\u2019utilise aussi pour les mod\u00e8les de calques et remplace la palette Windows.\n- \u00ab Rendre courant \u00bb est retir\u00e9 du menu contextuel. Un clic sur le nom du calque le rend d\u00e9j\u00e0 courant.\n\n- Souris : curseur syst\u00e8me visible en compl\u00e9ment du r\u00e9ticule, regroupement des rafra\u00eechissements Ctrl/Maj/Alt et r\u00e9cup\u00e9ration de la capture de souris en cas de perte de focus, sans supprimer le trac\u00e9 en cours. Cette am\u00e9lioration vise les disparitions intermittentes du curseur."
+  "notes": "Nouveaut\u00e9s :\n- Point z\u00e9ro : cliquez sur l\u2019outil dans Relev\u00e9 GPS, puis sur le point de r\u00e9f\u00e9rence dans le plan, sans s\u00e9lection pr\u00e9alable. Le choix fonctionne m\u00eame lorsque le cadenas GPS est verrouill\u00e9 et ne d\u00e9verrouille pas les points.\n- Le point vis\u00e9 est rep\u00e9r\u00e9 au survol, m\u00eame si les accrochages sont d\u00e9sactiv\u00e9s. Un clic dans le vide laisse l\u2019outil actif; \u00c9chap annule. La commande Z0 lance le m\u00eame outil.\n- Le nouveau z\u00e9ro recalcule les hauteurs de tous les calques. Annuler/r\u00e9tablir restaure aussi les anciennes cotes import\u00e9es.\n- Affichage du mod\u00e8le : les cases Tous les points, Toutes les lignes, Toutes les \u00e9l\u00e9vations et Toutes les annotations peuvent de nouveau \u00eatre d\u00e9coch\u00e9es. Un clic sur une case partiellement coch\u00e9e affiche toute sa cat\u00e9gorie; le clic suivant la masque."
 }
