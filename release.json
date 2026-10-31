@@ -1,17 +1,26 @@
 {
-  "version": "0.2.14",
+  "version": "0.2.15",
   "runtimeVersion": "8.0.22",
-  "sha256": "fbad3d1d427f927ce12f98f89a9012ff85f6724189438b90c27b879c8c5258f1",
-  "length": 240225,
+  "sha256": "88e8b51c0d3b3f72bd7c2069686d91d6ef511a513489ac3f8ce12d62ba4ec56e",
+  "length": 541671,
   "parts": [
-    "payload/0.2.14/application.001",
-    "payload/0.2.14/application.002",
-    "payload/0.2.14/application.003",
-    "payload/0.2.14/application.004",
-    "payload/0.2.14/application.005",
-    "payload/0.2.14/application.006",
-    "payload/0.2.14/application.007",
-    "payload/0.2.14/application.008"
+    "payload/0.2.15/application.001",
+    "payload/0.2.15/application.002",
+    "payload/0.2.15/application.003",
+    "payload/0.2.15/application.004",
+    "payload/0.2.15/application.005",
+    "payload/0.2.15/application.006",
+    "payload/0.2.15/application.007",
+    "payload/0.2.15/application.008",
+    "payload/0.2.15/application.009",
+    "payload/0.2.15/application.010",
+    "payload/0.2.15/application.011",
+    "payload/0.2.15/application.012",
+    "payload/0.2.15/application.013",
+    "payload/0.2.15/application.014",
+    "payload/0.2.15/application.015",
+    "payload/0.2.15/application.016",
+    "payload/0.2.15/application.017"
   ],
-  "notes": "Nouveaut\u00e9s :\n- Point z\u00e9ro : cliquez sur l\u2019outil dans Relev\u00e9 GPS, puis sur le point de r\u00e9f\u00e9rence dans le plan, sans s\u00e9lection pr\u00e9alable. Le choix fonctionne m\u00eame lorsque le cadenas GPS est verrouill\u00e9 et ne d\u00e9verrouille pas les points.\n- Le point vis\u00e9 est rep\u00e9r\u00e9 au survol, m\u00eame si les accrochages sont d\u00e9sactiv\u00e9s. Un clic dans le vide laisse l\u2019outil actif; \u00c9chap annule. La commande Z0 lance le m\u00eame outil.\n- Le nouveau z\u00e9ro recalcule les hauteurs de tous les calques. Annuler/r\u00e9tablir restaure aussi les anciennes cotes import\u00e9es.\n- Affichage du mod\u00e8le : les cases Tous les points, Toutes les lignes, Toutes les \u00e9l\u00e9vations et Toutes les annotations peuvent de nouveau \u00eatre d\u00e9coch\u00e9es. Un clic sur une case partiellement coch\u00e9e affiche toute sa cat\u00e9gorie; le clic suivant la masque."
+  "notes": "Nouveaut\u00e9s :\n- Raccourcis personnalis\u00e9s : menu d\u00e9di\u00e9 pour r\u00e9affecter les touches Ctrl, Alt et Maj / Shift, les combinaisons clavier et les commandes des outils. Les conflits sont signal\u00e9s; les pr\u00e9f\u00e9rences sont enregistr\u00e9es et les valeurs par d\u00e9faut peuvent \u00eatre r\u00e9tablies.\n- Ligne de r\u00e9f\u00e9rence REFF : les accrochages intercalques, prolongements, perpendiculaires et axes du plan fonctionnent aussi pendant le choix des deux points, y compris en rotation et en \u00e9chelle.\n- Aide repens\u00e9e : guide par th\u00e8mes, recherche et raccourcis affich\u00e9s selon vos r\u00e9glages.\n- S\u00e9lection de plusieurs calques : cases de s\u00e9lection, Ctrl+clic et Maj+clic par d\u00e9faut. Clics, cadres et Tout s\u00e9lectionner se limitent aux calques choisis; Tous retire le filtre.\n- Export PDF : aper\u00e7u du document mis \u00e0 jour avec les listes de formats, dont ARCH D, l\u2019orientation et les \u00e9chelles m\u00e9triques ou architecturales. \u00c9chelle personnalis\u00e9e et ajustement \u00e0 la page disponibles.\n- Orienter le plan : choisir une ligne pour aligner la pr\u00e9sentation et le PDF sur l\u2019axe Est\u2013Ouest, en gardant les textes horizontaux. Les coordonn\u00e9es GPS restent inchang\u00e9es; l\u2019orientation est enregistr\u00e9e avec le projet et peut \u00eatre annul\u00e9e ou r\u00e9initialis\u00e9e.\n- Nouvelle ic\u00f4ne TopoPLM pour le programme et ses fen\u00eatres."
 }
